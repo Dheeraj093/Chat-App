@@ -55,7 +55,7 @@ const Login = () => {
             history("/chats");
         } catch (error) {
             toast({
-                title: "Error Occured!",
+                title: "Wrong Password!",
                 description: error.message,
                 status: "error",
                 duration: 5000,
